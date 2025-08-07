@@ -1,5 +1,21 @@
 version: "3.9"
 services:
+  bot-postador-link-shopee:
+    build:
+      context: ./bot_postador_link_shopee
+    container_name: bot-postador-link-shopee-container
+    env_file:
+      - ./bot_postador_link_shopee/.env
+
+  db-service-api:
+    build:
+      context: ./db-service-api
+    container_name: db-service-api-container
+    ports:
+      - "7010:7010"
+    env_file:
+      - ./db-service-api/.env
+
   bot-recebedor-comprovante:
     build:
       context: ./bot_recebedor_comprovante
@@ -7,13 +23,4 @@ services:
     env_file:
       - ./bot_recebedor_comprovante/.env
     depends_on:
-      - backend-java
-
-  backend-java:
-    build:
-      context: ./cuspidor_bot_api
-    container_name: backend-java-container
-    ports:
-      - "7010:7010"
-    env_file:
-      - ./cuspidor_bot_api/.env
+      - db-service-api
