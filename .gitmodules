@@ -4,3 +4,6 @@
 [submodule "bot_postador_link_shopee"]
 	path = bot_postador_link_shopee
 	url = https://github.com/eliezerBrasilian/bot_postador_link_shopee
+[submodule "bot_recebedor_comprovante_shopee"]
+	path = bot_recebedor_comprovante_shopee
+	url = https://github.com/eliezerBrasilian/bot_recebedor_comprovante_shopee
