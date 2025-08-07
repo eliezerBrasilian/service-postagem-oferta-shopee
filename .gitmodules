@@ -1,6 +1,3 @@
-[submodule "bot_recebedor_comprovante_shopee"]
-	path = bot_recebedor_comprovante_shopee
-	url = https://github.com/eliezerBrasilian/bot_recebedor_comprovante_shopee
 [submodule "db-service_api-shopee"]
 	path = db-service_api-shopee
 	url = https://github.com/eliezerBrasilian/db-service_api-shopee
