@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  bot-recebedor-comprovante:
+    build:
+      context: ./bot_recebedor_comprovante
+    container_name: bot-recebedor-container
+    env_file:
+      - ./bot_recebedor_comprovante/.env
+    depends_on:
+      - backend-java
+
+  backend-java:
+    build:
+      context: ./cuspidor_bot_api
+    container_name: backend-java-container
+    ports:
+      - "7010:7010"
+    env_file:
+      - ./cuspidor_bot_api/.env

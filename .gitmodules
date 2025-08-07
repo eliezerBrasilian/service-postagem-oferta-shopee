@@ -1,0 +1,6 @@
+[submodule "bot_recebedor_comprovante"]
+	path = bot_recebedor_comprovante
+	url = https://github.com/eliezerBrasilian/bot_recebedor_comprovante
+[submodule "cuspidor_bot_api"]
+	path = cuspidor_bot_api
+	url = https://github.com/eliezerBrasilian/cuspidor_bot_api
