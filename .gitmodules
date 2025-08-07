@@ -1,9 +1,9 @@
-[submodule "bot_recebedor_comprovante"]
-	path = bot_recebedor_comprovante
-	url = https://github.com/eliezerBrasilian/bot_recebedor_comprovante
-[submodule "cuspidor_bot_api"]
-	path = cuspidor_bot_api
-	url = https://github.com/eliezerBrasilian/cuspidor_bot_api
+[submodule "bot_recebedor_comprovante_shopee"]
+	path = bot_recebedor_comprovante_shopee
+	url = https://github.com/eliezerBrasilian/bot_recebedor_comprovante_shopee
+[submodule "db-service_api-shopee"]
+	path = db-service_api-shopee
+	url = https://github.com/eliezerBrasilian/db-service_api-shopee
 [submodule "bot_postador_link_shopee"]
 	path = bot_postador_link_shopee
 	url = https://github.com/eliezerBrasilian/bot_postador_link_shopee

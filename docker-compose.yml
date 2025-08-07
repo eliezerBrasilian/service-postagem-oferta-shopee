@@ -9,18 +9,18 @@ services:
 
   db-service-api:
     build:
-      context: ./db-service-api
+      context: ./db-service_api-shopee
     container_name: db-service-api-container
     ports:
       - "7010:7010"
     env_file:
-      - ./db-service-api/.env
+      - ./db-service_api-shopee/.env
 
   bot-recebedor-comprovante:
     build:
-      context: ./bot_recebedor_comprovante
-    container_name: bot-recebedor-container
+      context: ./bot_recebedor_comprovante_shopee
+    container_name: bot_recebedor_comprovante_shopee-container
     env_file:
-      - ./bot_recebedor_comprovante/.env
+      - ./bot_recebedor_comprovante_shopee/.env
     depends_on:
       - db-service-api
