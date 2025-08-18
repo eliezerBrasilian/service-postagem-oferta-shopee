@@ -1,3 +1,5 @@
 ﻿# service-postador-oferta
 
-<img width="777" height="646" alt="image" src="https://github.com/user-attachments/assets/72cf99ab-5328-4165-b761-323bbd70572d" />
+<img width="1229" height="694" alt="image" src="https://github.com/user-attachments/assets/18fa3767-3226-4fdd-908a-587aca955448" />
+
+
