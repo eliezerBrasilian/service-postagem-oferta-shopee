@@ -7,3 +7,6 @@
 [submodule "bot_recebedor_comprovante_shopee"]
 	path = bot_recebedor_comprovante_shopee
 	url = https://github.com/eliezerBrasilian/bot_recebedor_comprovante_shopee
+[submodule "cache-service-redis_shopee"]
+	path = cache-service-redis_shopee
+	url = https://github.com/plantfall/cache-service-redis_shopee
