@@ -15,6 +15,17 @@ services:
       - "7010:7010"
     env_file:
       - ./db-service_api-shopee/.env
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+
+  cache-service-api:
+    build:
+      context: ./cache-service_api-shopee
+    container_name: cache-service-api-shopee-container
+    ports:
+      - "7012:7012"
+    env_file:
+      - ./cache-service_api-shopee/.env
 
   bot-recebedor-comprovante:
     build:
